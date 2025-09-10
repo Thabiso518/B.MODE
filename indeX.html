@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maburu Tech Solutions - Business Model Canvas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7f9;
+            color: #333;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+        
+        .description {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .canvas {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 1px;
+            background: #ddd;
+        }
+        
+        .section {
+            padding: 15px;
+            background: white;
+            min-height: 150px;
+        }
+        
+        .section-header {
+            font-weight: bold;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #3498db;
+            color: #2c3e50;
+        }
+        
+        .section-content {
+            font-size: 14px;
+        }
+        
+        .span-2 {
+            grid-column: span 2;
+        }
+        
+        .span-4 {
+            grid-column: span 4;
+        }
+        
+        .key-points {
+            list-style-type: none;
+        }
+        
+        .key-points li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .key-points li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .metric-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border-left: 3px solid #3498db;
+        }
+        
+        .instructions {
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #eee;
+            font-size: 14px;
+        }
+        
+        .print-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        
+        .print-btn:hover {
+            background: #1a2530;
+        }
+        
+        @media (max-width: 768px) {
+            .canvas {
+                grid-template-columns: 1fr;
+            }
+            
+            .span-2, .span-4 {
+                grid-column: span 1;
+            }
+            
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maburu Tech Solutions - Business Model Canvas</h1>
+            <p class="description">On-campus laptop services and sales for students in Lesotho</p>
+        </header>
+        
+        <div class="canvas">
+            <div class="section">
+                <div class="section-header">What are you selling?</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li>On-campus laptop services (repairs, software installation)</li>
+                        <li>New and refurbished laptop sales</li>
+                        <li>CampusTech mobile and web application</li>
+                        <li>3-month pay-later plans for students</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-header">Target Market</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li><strong>Primary:</strong> First-year university students</li>
+                        <li><strong>Secondary:</strong> Other students, lecturers, staff, community members</li>
+                        <li><strong>TAM:</strong> 25,000-30,000 tertiary students in Lesotho</li>
+                        <li><strong>SOM Year 1:</strong> 3,000 students (Limkokwing University)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-header">Launch Strategy</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li>Pilot at Limkokwing University</li>
+                        <li>CampusTech app rollout</li>
+                        <li>Social media and campus awareness campaigns</li>
+                        <li>Partnerships with university IT departments</li>
+                        <li>Discount incentives for early adopters</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-header">Post-Launch (First 30, 60 & 90 days)</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li><strong>30 days:</strong> Gather feedback, fix issues, reach 100 bookings</li>
+                        <li><strong>60 days:</strong> Introduce referrals, secure 2+ university partnerships</li>
+                        <li><strong>90 days:</strong> 500+ active users, launch laptop sales, expand to NUL/Botho</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-header">Value Proposition</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li>Convenient on-campus services</li>
+                        <li>Student-affordable pricing</li>
+                        <li>Flexible payment options</li>
+                        <li>Trusted student-to-student service</li>
+                        <li>App-based convenience</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section span-2">
+                <div class="section-header">Distribution</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li>CampusTech app (mobile and web)</li>
+                        <li>Physical on-campus service points</li>
+                        <li>Integrated digital payments (M-Pesa, EcoCash, cards)</li>
+                        <li>Referral and loyalty programs</li>
+                        <li>Partnerships with university IT departments</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-header">Competitors</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li>Local off-campus repair shops (expensive, inconvenient)</li>
+                        <li>Informal technicians (unreliable)</li>
+                        <li>Other tech startups (limited student focus)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="section-header">Who's buying it?</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li>First-year students (priority)</li>
+                        <li>Continuing students</li>
+                        <li>Bursary-dependent students</li>
+                        <li>Lecturers and university staff</li>
+                        <li>Local community members near campuses</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section span-2">
+                <div class="section-header">Metrics</div>
+                <div class="section-content">
+                    <div class="metrics-grid">
+                        <div class="metric-item">
+                            <strong>User Growth</strong><br>
+                            App downloads and active users
+                        </div>
+                        <div class="metric-item">
+                            <strong>Service Volume</strong><br>
+                            Bookings per week/month
+                        </div>
+                        <div class="metric-item">
+                            <strong>Revenue</strong><br>
+                            From services and laptop sales
+                        </div>
+                        <div class="metric-item">
+                            <strong>Customer Satisfaction</strong><br>
+                            App ratings and feedback
+                        </div>
+                        <div class="metric-item">
+                            <strong>Retention</strong><br>
+                            Repeat customers and referrals
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section span-4">
+                <div class="section-header">Assumptions / Risks</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li><strong>Assumptions:</strong>
+                            <ul class="key-points">
+                                <li>Students will prefer on-campus services over town options</li>
+                                <li>Bursary disbursements will align with pay-later plans</li>
+                                <li>Universities will support partnerships</li>
+                            </ul>
+                        </li>
+                        <li><strong>Risks:</strong>
+                            <ul class="key-points">
+                                <li>Delayed bursary payments affecting revenue</li>
+                                <li>Technical issues with the app</li>
+                                <li>Competition from established repair shops</li>
+                                <li>Low adoption if students lack awareness</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section span-4">
+                <div class="section-header">Considerations</div>
+                <div class="section-content">
+                    <ul class="key-points">
+                        <li><strong>Scalability:</strong> Plan for expansion to other universities and towns</li>
+                        <li><strong>Training:</strong> Employ student technicians to build local capacity</li>
+                        <li><strong>Sustainability:</strong> Explore partnerships with laptop suppliers for bulk discounts</li>
+                        <li><strong>Community impact:</strong> Create jobs for IT graduates and student interns</li>
+                        <li><strong>Technology:</strong> Ensure app reliability and continuous improvement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>About Maburu Tech Solutions</h3>
+            <p>Maburu is a student-focused technology support service based in Lesotho, providing on-campus laptop services, sales, and support through the CampusTech app. Designed by students for students, Maburu addresses the unique technology challenges faced by university students through affordable, convenient, and reliable solutions.</p>
+        </div>
+        
+        <button class="print-btn" onclick="window.print()">Print Canvas</button>
+    </div>
+</body>
+</html>
